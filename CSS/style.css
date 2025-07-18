@@ -207,10 +207,10 @@ nav ul li a:hover {
   max-width: 400px;
 }
 @media (max-width: 767px) {
-  .landing .text {
+  #landing .text {
     width: 100%;
   }
-  .landing .text .content {
+  #landing .text .content {
     max-width: 100%;
   }
 }
@@ -923,7 +923,7 @@ video {
   grid-template-columns: calc(100% - (100% / 3)) calc(100% / 3);
 }
 @media (max-width: 767px) {
-  .contact .box {
+  #contact .box {
     grid-template-columns: 1fr;
   }
 }
